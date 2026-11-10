@@ -1,0 +1,26 @@
+
+# API keys and environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local MCP configuration
+.mcp.json
+.vscode/mcp.json
+.kilo/
+.copilot/
+
+# Generated API results
+heatmap_result.json
+
+# Python files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local editor settings
+.vscode/*
+!.vscode/extensions.json
